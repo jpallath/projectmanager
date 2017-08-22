@@ -15,4 +15,9 @@ class ProjectItem extends Component {
   }
 }
 
+ProjectItem.proptypes ={
+  projects: React.PropTypes.object,
+  onDelete: React.PropTypes.func
+}
+
 export default ProjectItem;

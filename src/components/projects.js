@@ -24,4 +24,9 @@ class Projects extends Component {
   }
 }
 
+Projects.proptypes ={
+  projects: React.PropTypes.array,
+  onDelete: React.PropTypes.func
+}
+
 export default Projects;
